@@ -1,0 +1,80 @@
+.header {
+  background-color: #000614;
+  color: whitesmoke;
+  height: 100px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+#highlight {
+  border-right: solid 2px white;
+  border-left: solid 2px white;
+  border-bottom: solid 5px white;
+  padding: 0 5px;
+}
+
+#warning-box {
+  margin: 30px auto 0 auto;
+  width: 500px;
+}
+
+.card button {
+  margin-left: 10px;
+}
+#noteForm {
+  width: 500px;
+}
+#closed {
+  height: 60px;
+  overflow: hidden;
+  transition: ease-in-out 3s;
+}
+#open {
+  padding: 20px;
+  transition: ease-in-out 3s;
+}
+.inputs {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#box {
+  margin-top: 15px;
+  height: 500px;
+  overflow-x: hidden;
+  display: block;
+  padding: 0 20px;
+}
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.inputs button,
+.form-control {
+  width: 100%;
+  margin-top: 10px;
+}
+#noteForm textarea {
+  height: 300px;
+}
+
+.card-header,
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 35px;
+}
+.badge {
+  border-radius: 50%;
+  padding: 6px;
+  line-height: 35px;
+}
