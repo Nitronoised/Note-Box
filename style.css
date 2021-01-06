@@ -9,13 +9,24 @@
   align-items: center;
   margin-bottom: 20px;
 }
+.header h1,
+.header i {
+  font-size: 30px;
+}
 #highlight {
   border-right: solid 2px white;
   border-left: solid 2px white;
   border-bottom: solid 5px white;
   padding: 0 5px;
 }
-
+#guide {
+  font-size: 14px;
+  position: fixed;
+  opacity: 0.4;
+  z-index: 10;
+  top: 30px;
+  left: 10px;
+}
 #warning-box {
   margin: 30px auto 0 auto;
   width: 500px;

@@ -11,7 +11,7 @@
         crossorigin="anonymous" />
     <link href="./style.css" rel="stylesheet">
 
-    <title>Application</title>
+    <title>Notebox</title>
 </head>
 
 <body style="width: 100%;">
@@ -20,7 +20,10 @@
         <h1><i class="fas fa-calendar-check text-primary"></i> Note <span id="highlight" class="text-primary">BOX</span>
         </h1>
     </div>
-
+    <p id="guide">
+        - Entering an existing note title will update the old one. <br> - To make a list of notes, add ** to the end of
+        each item.
+    </p>
     <div class="wrapper">
         <div class="inputs">
             <div id="warning-box"></div>
@@ -36,6 +39,7 @@
             </form>
 
         </div>
+
 
         <div id="box"> </div>
     </div>

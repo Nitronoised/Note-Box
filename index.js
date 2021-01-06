@@ -58,12 +58,12 @@ class Ui{
     }
     static checkNote(value){
             // Deciding type of note
-            let dots = value.split('').filter(e => e == '.');
-            let dotSplit = value.split('.');
+            let dots = value.split('').filter(e => e == '**');
+            let dotSplit = value.split('**');
             let space = [];
             dotSplit.pop();
             notes = value;
-           if(dots.length <= 1){
+           if(dots.length >= 2){
                 notes = value+'.';
             }else{
                 dotSplit.forEach(el => {
