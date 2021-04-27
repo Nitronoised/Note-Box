@@ -4,5 +4,6 @@
 ### Bugs to fix
 - Correct the editing algorithm.
 - Add responsive design on phone.
+- Change the interface to be vertical
 
 
